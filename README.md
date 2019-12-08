@@ -14,8 +14,9 @@ Hivery Paranuara Challenge(django)
 - Install dependencies and activate virtualenv:
 
   ```
-  pipenv install
   pipenv shell # activate python virtualenv
+  pip install -r requirements.txt
+  manage.py runserver 7000
   ```
 
 - Build & launch development server
