@@ -22,7 +22,7 @@ Hivery Paranuara Challenge(django)
 
   ```
   docker-compose build # will import data file from the resources directory
-  docker-compose up # localhost:6000
+  docker-compose up # localhost:7000
   ```
 
 ### Configuration
@@ -54,9 +54,9 @@ Hivery Paranuara Challenge(django)
 
 - curl example
   ```
-  curl http://127.0.0.1:6000/v1/api/company/BUGSALL
+  curl http://127.0.0.1:7000/v1/api/company/BUGSALL
 
-  curl "http://127.0.0.1:6000/v1/api/people/Moon%20Herring"
+  curl "http://127.0.0.1:7000/v1/api/people/Moon%20Herring"
 
-  curl "http://127.0.0.1:6000/v1/api/people/Moon%20Herring,Rosemary%20Hayes"
+  curl "http://127.0.0.1:7000/v1/api/people/Moon%20Herring,Rosemary%20Hayes"
   ```
