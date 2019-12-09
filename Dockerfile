@@ -17,6 +17,7 @@ RUN mkdir /app
 WORKDIR /app
 COPY . /app
 
+RUN python manage.py migrate
 RUN python manage.py import_company resources/companies.json -d
 RUN python manage.py import_people resources/people.json -d
 
